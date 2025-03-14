@@ -109,3 +109,7 @@ with open('instructions.txt', 'r') as file:
     instructions = [line.strip() for line in file.readlines()]
 vliw = VLIW(instructions)
 vliw.run()
+
+
+
+# For nop issue clock cycle has to be fixed
