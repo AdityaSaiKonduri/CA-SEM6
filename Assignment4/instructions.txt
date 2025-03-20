@@ -1,11 +1,11 @@
-ld   r1  05
-ld   r2  10
-iadd r3  r1  r2
-imul r4  r3  r2
-st   r4  0
-ld   r5  15
-iadd r3  r5  r1
-imul r6  r3  r2
-st   r6  4
-ld   r1  20
-iadd r7  r1  r4
+ld   r1  05  
+ld   r2  10  
+iadd r3  r1  r2  
+imul r4  r3  r2  
+iadd r3  r4  r1  
+imul r5  r3  r2  
+st   r5  0  
+ld   r1  20  
+iadd r6  r1  r3  
+imul r3  r6  r2  
+st   r3  4
